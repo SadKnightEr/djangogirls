@@ -4,13 +4,13 @@ Django site created by tutorial on: https://tutorial.djangogirls.org/
 * Install python
 * Install venv
 ```
--m venv myvenv
+python -m venv myvenv
 ```
 * Install pip
 ```
-~$ python3 -m pip install --upgrade pip
+python -m pip install --upgrade pip
 ```
 * Install django
 ```
-pip install django~=1.11.0
+python pip install django~=1.11.0
 ```
