@@ -18,3 +18,15 @@ python -m pip install --upgrade pip
 ```
 python pip install django~=1.11.0
 ```
+* Start Django project(if empty)
+```
+django-admin startproject mysite .
+```
+* Create database for Django site
+```
+python manage.py migrate
+```
+* Run our site
+```
+python manage.py runserver
+```
