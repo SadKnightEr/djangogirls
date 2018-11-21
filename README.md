@@ -6,6 +6,10 @@ Django site created by tutorial on: :heart: https://tutorial.djangogirls.org/
 ```
 python -m venv myvenv
 ```
+* Activate myvenv
+```
+myvenv\Scripts\activate
+```
 * Install pip
 ```
 python -m pip install --upgrade pip
