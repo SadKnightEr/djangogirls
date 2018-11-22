@@ -40,9 +40,9 @@ python manage.py makemigrations blog
 ```
 * Apply migration(s)
 ```
-python manage.py migrate blog
+python manage.py migrate
 ```
-* Create superuser (only first time)
+* Create superuser
 ```
 python manage.py createsuperuser
 ```
