@@ -30,3 +30,19 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
+* Add blog site(create app) - no need(for history)
+```
+python manage.py startapp blog
+```
+* Add models in database(only first time)
+```
+python manage.py makemigrations blog
+```
+* Apply migration(s)
+```
+python manage.py migrate blog
+```
+* Create superuser (only first time)
+```
+python manage.py createsuperuser
+```
