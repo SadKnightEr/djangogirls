@@ -46,3 +46,7 @@ python manage.py migrate
 ```
 python manage.py createsuperuser
 ```
+* Open Django interactive console
+```
+python manage.py shell
+```
