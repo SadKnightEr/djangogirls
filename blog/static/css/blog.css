@@ -1,0 +1,11 @@
+h1 a {
+    color: #FCA205;
+    text-decoration: none;
+}
+
+.card-img-thumbnail {
+    background-image: url('https://images.pexels.com/photos/1624874/pexels-photo-1624874.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-size: cover;
+    background-position: center;
+    height:300px;
+}
