@@ -1,20 +1,24 @@
+<!DOCTYPE html>
 {% load static %}
 {% load staticfiles %}
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/JacobLett/bootstrap4-latest/master/bootstrap-4-latest.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="{% static 'css/blog.css' %}">
     <title>IT Notes</title>
 </head>
 <body>
-    <h1>Michael blog</h1>
-    <hr>
+    <div class="w-100" style="background-color: #eee;">
+        <div class="bg-info text-white p-3">
+            <a class="no-decoration text-white" href="/">
+                <h1>Michael blog</h1>
+            </a>
+        </div>
+    </div>
     {% block content %}
     {% endblock %}
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://bootstrapcreative.com/wp-bc/wp-content/themes/wp-bootstrap/codepen/bootstrapcreative.js?v=4"></script>
     <script type="text/javascript" src="{% static 'js/blog.js' %}"></script>
 </body>
 </html>

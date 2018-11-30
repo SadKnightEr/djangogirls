@@ -52,5 +52,5 @@ python manage.py shell
 ```
 * Reset password (by console)
 ```
-manage.py changepassword <user_name>
+pytmanage.py changepassword <user_name>
 ```

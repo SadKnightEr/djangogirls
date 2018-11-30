@@ -3,7 +3,7 @@ $(document).ready(function() {
 console.log("document is ready");
 
 
-  $( ".card" ).hover(
+  $( ".card-hover-shadow" ).hover(
   function() {
     $(this).addClass('shadow-lg').css('cursor', 'pointer');
   }, function() {
